@@ -79,7 +79,7 @@ export default function Home() {
                       <Award className="h-24 w-24 text-primary-600" />
                     </div>
                     <p className="text-gray-600 text-sm">
-                      Replace this with Dr. Aneeta Kumari's professional photo
+                      Replace this with Dr. Aneeta Kumari&apos;s professional photo
                       <br />
                       <span className="text-xs">(Add image to /public/doctor-photo.jpg)</span>
                     </p>

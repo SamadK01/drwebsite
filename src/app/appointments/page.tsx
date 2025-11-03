@@ -1,4 +1,4 @@
-'use client'
+https://github.com/SamadK01/drwebsite'use client'
 
 import { useState } from 'react'
 import Calendar from 'react-calendar'
@@ -132,7 +132,7 @@ export default function Appointments() {
                   Appointment Request Received!
                 </h2>
                 <p className="text-lg text-gray-700 mb-6">
-                  Thank you for booking an appointment with Dr. Aneeta Kumari. We've received your request and will send you a confirmation email shortly.
+                  Thank you for booking an appointment with Dr. Aneeta Kumari. We&apos;ve received your request and will send you a confirmation email shortly.
                 </p>
                 <div className="bg-white rounded-lg p-6 mb-6">
                   <p className="text-sm text-gray-600 mb-2">You'll receive confirmation at:</p>
@@ -334,9 +334,9 @@ export default function Appointments() {
 
                     {submitStatus === 'error' && (
                       <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-                        <p className="text-red-800 font-medium text-sm">
-                          ✗ Failed to submit appointment. Please try again or call us directly.
-                        </p>
+                      <p className="text-red-800 font-medium text-sm">
+                        ✗ Failed to submit appointment. Please try again or call us directly.
+                      </p>
                       </div>
                     )}
 
@@ -380,9 +380,9 @@ export default function Appointments() {
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 Easy Scheduling
               </h3>
-              <p className="text-gray-600 text-sm">
-                Choose your preferred date and time from available slots. We'll confirm your appointment within 24 hours.
-              </p>
+                    <p className="text-gray-600 text-sm">
+                      Choose your preferred date and time from available slots. We&apos;ll confirm your appointment within 24 hours.
+                    </p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-md">
