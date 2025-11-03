@@ -278,7 +278,7 @@ export default function About() {
             Ready to Experience Quality Healthcare?
           </h2>
           <p className="text-xl text-primary-100 mb-8">
-            Schedule an appointment today and let's work together towards your health goals.
+            Schedule an appointment today and let&apos;s work together towards your health goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
