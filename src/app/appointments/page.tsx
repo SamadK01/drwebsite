@@ -112,7 +112,7 @@ export default function Appointments() {
               Book an Appointment
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Schedule your visit with Dr. Aneeta Kumari. Select your preferred date and time, and we'll confirm your appointment.
+              Schedule your visit with Dr. Aneeta Kumari. Select your preferred date and time, and we&apos;ll confirm your appointment.
             </p>
           </div>
         </div>
