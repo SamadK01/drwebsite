@@ -80,7 +80,7 @@ export default function Contact() {
               Get in Touch
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Have questions or need to schedule an appointment? We're here to help. Reach out to us through any of the methods below.
+              Have questions or need to schedule an appointment? We&apos;re here to help. Reach out to us through any of the methods below.
             </p>
           </div>
         </div>
@@ -141,7 +141,7 @@ export default function Contact() {
                 >
                   {contactInfo.email}
                 </a>
-                <p className="text-sm text-gray-600 mt-2">We'll respond within 24 hours</p>
+                <p className="text-sm text-gray-600 mt-2">We&apos;ll respond within 24 hours</p>
               </div>
 
               <div className="bg-gradient-to-br from-orange-50 to-white rounded-xl p-6 shadow-lg">
@@ -154,7 +154,7 @@ export default function Contact() {
                 <p className="text-gray-700 leading-relaxed">
                   {contactInfo.address}
                 </p>
-                <a 
+                <a
                   href={`https://maps.google.com/?q=${encodeURIComponent(contactInfo.address)}`}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -189,9 +189,9 @@ export default function Contact() {
                   <h2 className="text-3xl font-bold text-gray-900 mb-2">
                     Send Us a Message
                   </h2>
-                  <p className="text-gray-600">
-                    Fill out the form below and we'll get back to you as soon as possible.
-                  </p>
+                    <p className="text-gray-600">
+                      Fill out the form below and we&apos;ll get back to you as soon as possible.
+                    </p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -295,7 +295,7 @@ export default function Contact() {
                   {submitStatus === 'error' && (
                     <div className="bg-red-50 border border-red-200 rounded-lg p-4">
                       <p className="text-red-800 font-medium">
-                        ✗ Failed to send message. Please try again or contact us directly.
+                      ✗ Failed to send message. Please try again or contact us directly.
                       </p>
                     </div>
                   )}

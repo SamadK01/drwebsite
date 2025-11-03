@@ -170,9 +170,9 @@ export default function Appointments() {
                   </div>
 
                   <div className="mt-4 p-4 bg-blue-50 rounded-lg">
-                    <p className="text-sm text-blue-800">
-                      <strong>Note:</strong> Clinic is closed on Sundays. Please select a weekday or Saturday.
-                    </p>
+                      <p className="text-sm text-blue-800">
+                        <strong>Note:</strong> Clinic is closed on Sundays. Please select a weekday or Saturday.
+                      </p>
                   </div>
                 </div>
 

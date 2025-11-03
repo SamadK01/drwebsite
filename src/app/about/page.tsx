@@ -192,7 +192,7 @@ export default function About() {
                     'General Medicine',
                     'Preventive Healthcare',
                     'Chronic Disease Management',
-                    'Women\'s Health',
+                    'Women&apos;s Health',
                     'Pediatric Care',
                     'Geriatric Medicine',
                     'Lifestyle Medicine',
