@@ -135,7 +135,7 @@ export default function Appointments() {
                   Thank you for booking an appointment with Dr. Aneeta Kumari. We&apos;ve received your request and will send you a confirmation email shortly.
                 </p>
                 <div className="bg-white rounded-lg p-6 mb-6">
-                  <p className="text-sm text-gray-600 mb-2">You'll receive confirmation at:</p>
+                  <p className="text-sm text-gray-600 mb-2">You&apos;ll receive confirmation at:</p>
                   <p className="text-lg font-semibold text-gray-900">{formData.email}</p>
                 </div>
                 <button
@@ -359,7 +359,7 @@ export default function Appointments() {
                     </button>
 
                     <p className="text-sm text-gray-600 text-center">
-                      * Required fields. You'll receive a confirmation email once we process your request.
+                      * Required fields. You&apos;ll receive a confirmation email once we process your request.
                     </p>
                   </form>
                 </div>
